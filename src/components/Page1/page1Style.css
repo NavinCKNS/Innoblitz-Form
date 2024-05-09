@@ -1,0 +1,41 @@
+.page1{
+    display: flex;
+    padding: 30px ;
+    width: 70%;
+    height: 95%;
+    background-color: white ;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+
+}
+
+.profile{
+    text-align: center;
+
+}
+.profile-form{
+    width: 70%;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.gender {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+@media screen and (max-width:480px){
+  .profile-form{
+    flex-direction: column;
+  }
+  .page1{
+    width: 90vw;
+  }
+}

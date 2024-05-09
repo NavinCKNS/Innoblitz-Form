@@ -1,0 +1,37 @@
+.address-check{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.grid-address{
+    display: grid;
+    grid-template-areas: 
+    "f a a"
+    "c s p";
+    gap: 10px;
+}
+.floor{
+    grid-area: f;
+}
+.street{
+    grid-area: a;
+}
+.city{
+    grid-area: s;
+}
+.pincode{
+    grid-area: p;
+}
+.hide{
+    display: none;
+}
+.address-head{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:480px){
+    .grid-address{
+        display: flex;
+        flex-direction: column;
+    }
+  }

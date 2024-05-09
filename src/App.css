@@ -1,0 +1,14 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  padding: 20px;
+  gap: 20px;
+}
+.btn{
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+}
